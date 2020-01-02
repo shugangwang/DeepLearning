@@ -66,7 +66,7 @@
 
 迭代如下：
 
-<img src="http://latex.codecogs.com/gif.latex?w_1=w_1-\frac{\eta}{|B|}\sum_{i\in{B}}\frac{\partial{l^{(i)}(w_1,w_2,b)}}{\partial w_1}"/>
+<img src="http://latex.codecogs.com/gif.latex?w_1=w_1-\frac{\eta}{|B|}\sum_{i\in{B}}\frac{\partial{l^{(i)}}(w_1,w_2,b)}{\partial w_1}"/>
 
 <img src="http://latex.codecogs.com/gif.latex?w_2=w_2-\frac{\eta}{|B|}\sum_{i\in{B}}\frac{\partial l^{(i)}(w_1,w_2,b)}{\partial w_2}=w_2-\frac{\eta}{|B|}\sum_{i\in{B}}x_2^{(i)}\left(x_1^{(i)}w_1+x_2^{(i)}w_2+b-y^{(i)} \right)"/>
 
