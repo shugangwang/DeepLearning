@@ -68,9 +68,9 @@
 
 <img src="http://latex.codecogs.com/gif.latex?w_1=w_1-\frac{\eta}{|B|}\sum_{i\in{B}}\frac{\partial{l^{(i)}}(w_1,w_2,b)}{\partial{w_1}}=w_1-\frac{\eta}{|B|}\sum_{i\in{B}}x_1^{(i)}\left(x_1^{(i)}w_1+x_2^{(i)}w_2+b-y^{(i)} \right)"/>
 
-<img src="http://latex.codecogs.com/gif.latex?w_2=w_2-\frac{\eta}{|B|}\sum_{i\in{B}}\frac{\partial l^{(i)}(w_1,w_2,b)}{\partial w_2}=w_2-\frac{\eta}{|B|}\sum_{i\in{B}}x_2^{(i)}\left(x_1^{(i)}w_1+x_2^{(i)}w_2+b-y^{(i)} \right)"/>
+<img src="http://latex.codecogs.com/gif.latex?w_2=w_2-\frac{\eta}{|B|}\sum_{i\in{B}}\frac{\partial{l^{(i)}}(w_1,w_2,b)}{\partial{w_2}}=w_2-\frac{\eta}{|B|}\sum_{i\in{B}}x_2^{(i)}\left(x_1^{(i)}w_1+x_2^{(i)}w_2+b-y^{(i)} \right)"/>
 
-<img src="http://latex.codecogs.com/gif.latex?b=b-\frac{\eta}{|B|}\sum_{i\in{B}}\frac{\partial l^{(i)}(w_1,w_2,b)}{\partial b}=b-\frac{\eta}{|B|}\sum_{i\in{B}}\left(x_1^{(i)}w_1+x_2^{(i)}w_2+b-y^{(i)} \right)"/>
+<img src="http://latex.codecogs.com/gif.latex?b=b-\frac{\eta}{|B|}\sum_{i\in{B}}\frac{\partial{l^{(i)}}(w_1,w_2,b)}{\partial{b}}=b-\frac{\eta}{|B|}\sum_{i\in{B}}\left(x_1^{(i)}w_1+x_2^{(i)}w_2+b-y^{(i)} \right)"/>
 
 其中，<img src='http://latex.codecogs.com/gif.latex?|B|'/> 代表小批量的**样本个数**（批量大小，batch_size），<img src='http://latex.codecogs.com/gif.latex?\eta'/> 是**学习率**（learning rate）并取正数。
 
